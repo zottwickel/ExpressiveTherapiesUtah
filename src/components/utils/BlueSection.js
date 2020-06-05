@@ -31,5 +31,11 @@ const BlueSection = styled.section`
       color: gray;
     }
   }
+  @media (min-width: 768px) {
+    .left {
+      float: left;
+      margin: 0 2rem;
+    }
+  }
 `
 export default BlueSection

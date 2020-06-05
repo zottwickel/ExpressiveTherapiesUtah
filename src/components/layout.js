@@ -9,6 +9,7 @@ import React from "react"
 import { createGlobalStyle } from "styled-components"
 import Navbar from "../components/Navigation/Navbar"
 import Footer from "../components/Navigation/Footer"
+import Chev from "../components/utils/Chev"
 
 
 const Layout = ({ children }) => {
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
       <Navbar />
       <main>{children}</main>
       <Footer />
+      <Chev />
     </>
   )
 }
