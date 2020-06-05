@@ -1,20 +1,32 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/utils/Hero"
+import img from "../images/index-header.jpg"
+import BlueSection from "../components/utils/BlueSection"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Hero
+      title="Tony Ollerton, MA, SCMT, MT-BC"
+      subtitle="Board Certified Music Therapist"
+      tagline="Self Discovery Through Creative Expression"
+      img={img}
+      home={true}
+    ></Hero>
+    <BlueSection>
+      <h1>
+        Online Music Therapy Sessions Currently Available - Group and Individual
+      </h1>
+      <h2>
+        I provide individual, group and community based music therapy throughout
+        northern Utah. My specialties are in hospice, mental health and recovery
+        with adolescents and adults. Unique and creative opportunities are
+        offered for growth and change through the creation, exploration and
+        expression of music.
+      </h2>
+    </BlueSection>
   </Layout>
 )
 
