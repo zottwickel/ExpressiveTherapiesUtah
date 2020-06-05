@@ -62,7 +62,7 @@ export default Navbar
 
 const NavWrapper = styled.nav`
   background: #fff;
-  @media (min-width: 768px) {
+  @media (min-width: 1170px) {
     display: flex;
     align-items: center;
     .toggle-icon {
