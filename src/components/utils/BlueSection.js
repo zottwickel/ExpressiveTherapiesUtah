@@ -24,7 +24,7 @@ const BlueSection = styled.section`
     list-style-type: none;
   }
   a {
-    color: rgb(201, 128, 50);
+    color: rgba(201, 128, 50);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     &:hover {
